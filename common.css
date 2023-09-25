@@ -1,0 +1,43 @@
+/* header style */
+.header h2 {
+  height: 1.1rem;
+  text-align: center;
+  line-height: 1.1rem;
+  font-size: 0.37rem;
+}
+
+/* footer style */
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 1rem;
+  background: #ffffff;
+  box-shadow: 0rem -0.01rem 0.08rem 0rem rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer div a {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer div p {
+  text-align: center;
+  font-size: 0.24rem;
+  color: #000000;
+}
+
+.footer div.active p {
+  color: #3642ff;
+}
